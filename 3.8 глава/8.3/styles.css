@@ -1,0 +1,56 @@
+.icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: url(https://js.cx/sprite-tree/article.gif);
+  cursor: pointer;
+}
+
+.open > .icon {
+  background: url(https://js.cx/sprite-tree/minus.gif);
+}
+
+.closed > .icon {
+  background: url(https://js.cx/sprite-tree/plus.gif);
+}
+
+ul {
+  list-style: none;
+}
+
+.text {
+  margin-left: 16px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 5px;
+}
+
+.nav li, .nav img {
+  cursor: pointer;
+}
+
+.left {
+  float:left;
+  width:30%;
+  background: #aef;
+}
+
+.right {
+  float:right;
+  width:70%;
+  background: tan;
+  padding-left: 20px;
+  border-left: 1px solid #000;
+  box-sizing: border-box;
+}
