@@ -1,0 +1,23 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td, th {
+  padding: .5rem;
+  background: #e5e5e5;
+  border: 1px solid #1d1d1d;
+}
+
+#task5 {
+  display: flex;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
